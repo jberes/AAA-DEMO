@@ -23,6 +23,7 @@
     "igniteui-angular": "~19.2.0",
     "minireset.css": "~0.0.7",
     "rxjs": "~7.8.1",
+    "team-collaboration": "file:",
     "tslib": "~2.6.2",
     "zone.js": "~0.15.0"
   },
@@ -41,6 +42,7 @@
     "@angular-eslint/template-parser": "~19.2.0",
     "@angular/cli": "~19.2.0",
     "@angular/compiler-cli": "~19.2.0",
+    "@igniteui/angular-schematics": "~19.2.1443",
     "@types/jasmine": "~5.1.4",
     "@typescript-eslint/eslint-plugin": "~8.25.0",
     "@typescript-eslint/parser": "~8.25.0",
@@ -48,7 +50,6 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-prefer-arrow": "^1.2.3",
     "eslint-plugin-unicorn": "^53.0.0",
-    "@igniteui/angular-schematics": "~19.2.1443",
     "jasmine-core": "~5.1.1",
     "karma": "~6.4.2",
     "karma-chrome-launcher": "~3.2.0",
