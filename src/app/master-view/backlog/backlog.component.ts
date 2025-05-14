@@ -1,9 +1,9 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { IGX_GRID_DIRECTIVES, IGX_INPUT_GROUP_DIRECTIVES, IGX_LIST_DIRECTIVES, IGX_TABS_DIRECTIVES, IgxAvatarComponent, IgxButtonDirective, IgxIconButtonDirective, IgxIconComponent, IgxRippleDirective } from 'igniteui-angular';
 import { Subject, takeUntil } from 'rxjs';
+import { SuppliersType } from '../../models/northwind/suppliers-type';
 import { OrdersType } from '../../models/northwind/orders-type';
 import { CustomersType } from '../../models/northwind/customers-type';
-import { SuppliersType } from '../../models/northwind/suppliers-type';
 import { EmployeesType } from '../../models/northwind/employees-type';
 import { NorthwindService } from '../../services/northwind.service';
 

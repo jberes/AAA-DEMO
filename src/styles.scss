@@ -4,8 +4,8 @@
 @use "igniteui-angular/theming" as *;
 
 @include core();
-@include typography();
-@include light-theme($light-material-palette);
+@include typography($font-family: "Nunito Sans", $type-scale: $indigo-type-scale);
+@include indigo-dark-theme($dark-indigo-palette);
 
 body {
   background: var(--ig-surface-500);
